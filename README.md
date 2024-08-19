@@ -32,7 +32,7 @@ composer install
 
 ````bash
   GET http://localhost/api/users
-
+```
 Sample Response:
 ```bash
 [

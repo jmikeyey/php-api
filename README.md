@@ -13,7 +13,7 @@ To ease the setup process, a migration script is provided that automatically cre
 
 1. Clone the repository to the C:/xampp/htdocs directory:
 ```
- git clone https://github.com/jmikeyey/php-api
+git clone https://github.com/jmikeyey/php-api
 ```
 
 3. Install Dependencies

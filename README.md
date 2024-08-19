@@ -30,29 +30,30 @@ composer install
 
 4. Access the API Endpoint
 
-````bash
+```bash
   GET http://localhost/api/users
 ```
+
 Sample Response:
 ```bash
-[
-  {
-    "id": 1,
-    "name": "John Doe",
-    "email": "john@example.com",
-    "created_at": "2024-08-19 12:34:56"
-  },
-  {
-    "id": 2,
-    "name": "Jane Doe",
-    "email": "jane@example.com",
-    "created_at": "2024-08-19 12:34:56"
-  },
-  {
-    "id": 3,
-    "name": "Alice Smith",
-    "email": "alice@example.com",
-    "created_at": "2024-08-19 12:34:56"
-  }
-]
-````
+   [
+     {
+       "id": 1,
+       "name": "John Doe",
+       "email": "john@example.com",
+       "created_at": "2024-08-19 12:34:56"
+     },
+     {
+       "id": 2,
+       "name": "Jane Doe",
+       "email": "jane@example.com",
+       "created_at": "2024-08-19 12:34:56"
+     },
+     {
+       "id": 3,
+       "name": "Alice Smith",
+       "email": "alice@example.com",
+       "created_at": "2024-08-19 12:34:56"
+     }
+   ]
+```

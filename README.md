@@ -11,7 +11,7 @@ To ease the setup process, a migration script is provided that automatically cre
 
 ## Setup Instructions
 
-1. Clone the repository or copy the files
+1. Clone the repository to the C:/xampp/htdocs directory:
 
 2. Install Dependencies
 

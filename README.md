@@ -24,7 +24,9 @@ composer install
 
 3. **Run the migration script:**
 
-   Open the terminal, navigate to the project directory, and run the migration to create the database, `users` table, and add 3 users.
+   Run your XAMPP Control Panel and start the Apache and MySQL servers. Then, open the terminal, navigate to the project directory, and run the migration to create the database, users table, and add 3   users.
+
+
 
    ```bash
    php migrate.php

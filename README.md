@@ -12,8 +12,11 @@ To ease the setup process, a migration script is provided that automatically cre
 ## Setup Instructions
 
 1. Clone the repository to the C:/xampp/htdocs directory:
+```
+ git clone https://github.com/jmikeyey/php-api
+```
 
-2. Install Dependencies
+3. Install Dependencies
 
 ```bash
 composer install

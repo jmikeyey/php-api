@@ -1,6 +1,8 @@
 # User Migration and Fetch API
 
-This project demonstrates a simple migration script to create a database and a `users` table, followed by populating the table with 3 users. Additionally, it implements an API to fetch the users in an OOP style.
+This project demonstrates an Object-Oriented Programming (OOP) style for implementing a simple API that fetches users from a MySQL database. It showcases a structured approach to building a PHP-based API with separate classes for routing, database management, and controllers.
+
+To ease the setup process, a migration script is provided that automatically creates the necessary `users` table and populates it with 3 users. This removes the need for manual table creation.
 
 ## Requirements
 

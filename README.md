@@ -11,7 +11,10 @@ To ease the setup process, a migration script is provided that automatically cre
 
 ## Setup Instructions
 
-1. Clone the repository or copy the files
+1. Clone the repository to the C:/xampp/htdocs directory:
+```
+git clone https://github.com/jmikeyey/php-api .
+```
 
 2. Install Dependencies
 
@@ -30,29 +33,30 @@ composer install
 
 4. Access the API Endpoint
 
-````bash
+```bash
   GET http://localhost/api/users
 ```
+
 Sample Response:
 ```bash
-[
-  {
-    "id": 1,
-    "name": "John Doe",
-    "email": "john@example.com",
-    "created_at": "2024-08-19 12:34:56"
-  },
-  {
-    "id": 2,
-    "name": "Jane Doe",
-    "email": "jane@example.com",
-    "created_at": "2024-08-19 12:34:56"
-  },
-  {
-    "id": 3,
-    "name": "Alice Smith",
-    "email": "alice@example.com",
-    "created_at": "2024-08-19 12:34:56"
-  }
-]
-````
+   [
+     {
+       "id": 1,
+       "name": "John Doe",
+       "email": "john@example.com",
+       "created_at": "2024-08-19 12:34:56"
+     },
+     {
+       "id": 2,
+       "name": "Jane Doe",
+       "email": "jane@example.com",
+       "created_at": "2024-08-19 12:34:56"
+     },
+     {
+       "id": 3,
+       "name": "Alice Smith",
+       "email": "alice@example.com",
+       "created_at": "2024-08-19 12:34:56"
+     }
+   ]
+```

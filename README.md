@@ -39,7 +39,7 @@ composer install
   GET http://localhost/api/users
 ```
 
-Sample Response:
+### Sample Response:
 ```bash
    [
      {

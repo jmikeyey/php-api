@@ -16,7 +16,7 @@ To ease the setup process, a migration script is provided that automatically cre
 git clone https://github.com/jmikeyey/php-api
 ```
 
-3. Install Dependencies
+2. Install Dependencies
 
 ```bash
 composer install
